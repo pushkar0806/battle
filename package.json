@@ -1,0 +1,32 @@
+{
+  "name": "battle",
+  "version": "1.0.0",
+  "description": "Battle Ground for GOT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushkar0806/battle.git"
+  },
+  "keywords": [
+    "battle",
+    "GOT"
+  ],
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.2.15",
+    "escape-string-regexp": "^1.0.5",
+    "nodemon": "^1.18.4"
+  },
+  "author": "Pushkar Abhishek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pushkar0806/battle/issues"
+  },
+  "homepage": "https://github.com/pushkar0806/battle#readme"
+}
